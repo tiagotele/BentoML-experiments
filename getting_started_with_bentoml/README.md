@@ -28,3 +28,11 @@ bentoml build
 ```bash
 bentoml containerize iris_classifier:latest
 ```
+
+### Testing cals to iris model
+```bash
+curl \
+  -X POST \
+  -H "content-type: application/json" \
+  --data "[[7, 3.2, 4.7, 1.4]]" \
+```
