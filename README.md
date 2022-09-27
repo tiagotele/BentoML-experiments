@@ -1,5 +1,12 @@
 # Experimeting Bento ML
 
+# Initial Setup
+```bash
+python3 -m venv mlops_env
+source mlops_env/bin/activate
+pip install bentoml
+pip install jupyterlab
+```
 
 ## Experiments
 
